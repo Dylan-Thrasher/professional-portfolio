@@ -10,6 +10,7 @@ header {
     align-items: center;
     background-color: black;
     color: blue;
+    font-size: 40px;
 }
 
 h1, nav ul, nav a, nav li {background-color: black;}
@@ -19,11 +20,17 @@ h1, nav ul, nav a, nav li {background-color: black;}
     height: 300px;
 }
 
+#About p {
+    align-self: center;
+    font-size: x-large;
+}
+
 #Work_Title, #Contact_Me, #About_Me {
     display: flex;
     align-items: center;
     width: 20vw;
     border-right: 5px solid black;
+    font-size: 30px;
 }
 
 #Work, footer, #About {
@@ -43,6 +50,7 @@ h1, nav ul, nav a, nav li {background-color: black;}
 #big-picture {
     height: 50vh;
     width: 50vw;
+    border: 10px solid lightskyblue;
     position: relative;
 }
 
@@ -55,9 +63,12 @@ border: 5px solid blue;
 font-size: larger;
 }
 
-#small-picture {
+.small-picture {
    width: 50%;
-   padding: 10px; 
+   border: 10px solid lightskyblue;
+   padding: 10px;
+   
+
 }
 
 
@@ -76,12 +87,12 @@ nav{
 ul{
     display: flex;
     justify-content: space-around; 
-    min-width: 700px;
-    font-size: larger;   
+    min-width: 1000px;   
 }
 
 footer {
     height: 10vh;
+    font-size: 30px;
 }
 
 @media screen and (max-width: 768px) {
