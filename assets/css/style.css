@@ -9,6 +9,38 @@ header {
     justify-content: space-between
 }
 
+#Work_Title {
+    display: flex;
+    align-items: center;
+    width: 20vw;
+    border-right: 5px solid crimson;
+}
+
+#Work {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#Work_Image {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 50%;
+    width: 50%;
+}
+
+#big-picture {
+    height: 50vh;
+    width: 50vw;
+}
+
+#small-picture {
+   width: 50%;
+   padding: 10px; 
+}
+
+
 nav{
     display: flex;
     justify-content: flex-end;
@@ -24,7 +56,8 @@ nav{
 
 ul{
     display: flex;
-    justify-content: space-around;    
+    justify-content: space-around; 
+    min-width: 500px   
 }
 
 footer{
