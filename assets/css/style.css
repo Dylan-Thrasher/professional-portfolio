@@ -4,6 +4,22 @@ header {
     justify-content: space-between;
 }
 
+#About {
+    display: flex;
+    justify-content: center
+}
+
 ul {
+    display: flex;
     list-style-type: none;
+    justify-content: space-between;
+}
+
+li{
+    justify-content: space-between;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
 }
