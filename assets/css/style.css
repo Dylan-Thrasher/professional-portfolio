@@ -13,6 +13,15 @@ header {
     font-size: 40px;
 }
 
+#sub-title {
+    height: 100px;
+    background-image: linear-gradient(to bottom right, blue, purple);
+    font-size: 25;
+    font-weight: bolder;
+    text-align: center;
+    align-content: center;
+}
+
 h1, nav ul, nav a, nav li {background-color: black;}
 
 #About {
@@ -54,6 +63,7 @@ h1, nav ul, nav a, nav li {background-color: black;}
     position: relative;
 }
 
+/*  */
 .big-text-block {
 position: absolute;
 bottom: 200px;
