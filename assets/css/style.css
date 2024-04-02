@@ -1,25 +1,35 @@
+* {
+    background-color: lightgray;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    height: 10vh;
+    align-items: center;
+    background-color: black;
+    color: blue;
 }
+
+h1, nav ul, nav a, nav li {background-color: black;}
 
 #About {
-    display: flex;
-    justify-content: space-between
+    align-content: center;
+    height: 200px;
 }
 
-#Work_Title {
+#Work_Title, #Contact_Me, #About_Me {
     display: flex;
     align-items: center;
     width: 20vw;
-    border-right: 5px solid crimson;
+    border-right: 5px solid black;
 }
 
-#Work {
+#Work, footer, #About {
     display: flex;
     justify-content: space-between;
-    
+    padding: 20px 0px;
 }
 
 #Work_Image {
@@ -33,13 +43,33 @@ header {
 #big-picture {
     height: 50vh;
     width: 50vw;
+    position: relative;
+}
+
+.big-text-block {
+position: absolute;
+bottom: 200px;
+background-color: white;
+color: blue;
+border: 5px solid blue;
+font-size: larger;
 }
 
 #small-picture {
    width: 50%;
    padding: 10px; 
+   position: relative;
 }
 
+.small-text-block {
+position: absolute;
+bottom: -315px;
+left: 1050px;
+background-color: white;
+color: blue;
+border: 5px solid blue;
+font-size: larger;
+}
 
 nav{
     display: flex;
@@ -51,18 +81,17 @@ nav{
     display: flex;
     list-style-type: none;
     flex-direction: row;
-    padding: 1rem;
 }
 
 ul{
     display: flex;
     justify-content: space-around; 
-    min-width: 500px   
+    min-width: 700px;
+    font-size: larger;   
 }
 
-footer{
-    display: flex;
-    justify-content: space-between;
+footer {
+    height: 10vh;
 }
 
 @media screen and (max-width: 768px) {
