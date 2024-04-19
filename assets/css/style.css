@@ -56,6 +56,16 @@ h1, nav ul, nav a, nav li {background-color: black;}
     width: 50%;
 }
 
+#colors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#jeans{
+    object-fit: fill;
+}
+
 #big-picture {
     height: 50vh;
     width: 50vw;
